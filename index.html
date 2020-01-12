@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>&lt;haarla.dev&gt; Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <section class="nav-items" id="myheight">
+        <h1>&lt;haarla.dev&gt; </h1><br>
+        <p class="sub-title">Web Development | Web Design | Graphic Design</p>
+        <div class="items-container">
+            <a class="navs" href="#sec-profile">About Me</a>
+            <a class="navs" href="#sec-portfolio">Portfolio</a>
+            <a class="navs" href="#sec-resume">Experience</a>
+            <a class="navs" href="#sec-contact">Contact</a>
+            <span class="bottom-slider"></span>
+        </div>
+    </section>
+
+
+    <main class="content">
+        <section class="bottom-slide" id="sec-profile">
+            <span class="mySpacing">
+                <h1>About Me</h1>
+                <h3>About Jarkko Haarla <br>(AKA &lt;haarla.dev&gt;)</h3>
+            </span>
+
+
+            <div class="my-container">
+                <img class="profile-pic" src="assets/images/JHaarlanobg-circle.png"
+                    alt="Black and white picture of Jarkko Haarla" data-aos="zoom-in-up" data-aos-offset="160">
+                <p class="custom-height">I'm Jarkko Haarla - a self proclaimed nerd and an enthusiastic student of
+                    learning the world of front and back end web development. I have been a graphic designer for nearly
+                    20 years and enjoy creating things. After dabbling with learning to code websites, I finally jumped
+                    in with both feet and am (rapidly) adding a skillset that I hope to translate into creating
+                    beautiful digital things. It's a good thing I enjoy learning - there's a LOT to learn!</p>
+
+            </div>
+        </section>
+
+
+        <section class="bottom-slide" id="sec-portfolio">
+            <span class="mySpacing">
+                <h1>Portfolio</h1>
+                <h3>Here are some of my recent projects</h3>
+            </span>
+
+            <h4>PROJECTS</h4>
+            <div class="my-container hide-scroll" id="sec-portfolio">
+                <div class="row">
+
+                    <!-- <div class="my-card valign-wrapper" data-aos="fade-left" data-aos-offset="160">
+                    <img class="folioPics" src="assets/images/whatsCHAT.jpg" alt="WhatsCHAT app thumbnail">
+                    <div>
+                        <h5>WhatsCHAT</h5>
+                        <p>WHatsCHAT is a group messaging app. Anyone can join in this chatroom and chat away with
+                            people from all around the world. Updates are delivered to each user in real-time via
+                            socket.io. All users can see how many people are currently connected and who is actively
+                            typing. Go have a chat iwth someone you don't know!!</p>
+                        <a href="https://project2-whats-chat.herokuapp.com/" target="_blank"
+                            class="waves-effect waves-light btn"><i class="fas fa-globe"></i> Live</a>
+                        <a href="https://github.com/JHaarla/WhatsChat" target="_blank"
+                            class="waves-effect waves-light btn"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div> -->
+
+                    <div class="col s12 m6">
+                        <!-- <h2 class="header">WhatsCHAT</h2> -->
+                        <div class="card hoverable" data-aos="fade-right" data-aos-offset="160">
+                            <div class="card-image">
+                                <img src="assets/images/whatsCHAT.jpg">
+                            </div>
+                            <!-- <div class="card-stacked"> -->
+                            <div class="card-content">
+                                <span class="card-title activator">WhatsCHAT</span>
+                                <p>WhatsCHAT is a group messaging app. Anyone can join in this chatroom and chat away
+                                    with
+                                    people from all around the world. Updates are delivered to each user in real-time
+                                    via
+                                    socket.io. All users can see how many people are currently connected and who is
+                                    actively
+                                    typing. Go have a chat with someone you don't know!!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://project2-whats-chat.herokuapp.com/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/WhatsChat" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="my-card valign-wrapper" data-aos="fade-right" data-aos-offset="160">
+                    <img class="folioPics" src="assets/images/HPthumb.png" alt="House Party thumbnail">
+                    <div>
+                        <h5>House Party</h5>
+                        <p>If you're not sure what to mix up drink or music-wise, we're
+                            here to help. Punch in the name of your favorite cocktail or grab a random one if you're
+                            feeling adventurous and we'll show you how to mix it up. You'll be sure to find a new
+                            favorite or two!</p>
+                        <p>Once you have a beverage in hand, you'll need some tunes to get the party going. You can
+                            search for a playlist by artist or genre. Either way, we'll give you a few options to choose
+                            from to kick start your House Party!</p>
+                        <a href="https://jeff-paul-greco.github.io/project1/index.html" target="_blank"
+                            class="waves-effect waves-light btn"><i class="fas fa-globe"></i> Live</a>
+                        <a href="https://github.com/Jeff-Paul-Greco/project1" target="_blank"
+                            class="waves-effect waves-light btn"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div> -->
+
+                    <div class="col s12 m6">
+                        <!-- <h2 class="header">WhatsCHAT</h2> -->
+                        <div class="card hoverable" data-aos="fade-left" data-aos-offset="160">
+                            <div class="card-image">
+                                <img src="assets/images/HPthumb.png">
+                            </div>
+                            <!-- <div class="card hoverable"> -->
+                            <!-- <div class="card-stacked"> -->
+                            <div class="card-content">
+                                <span class="card-title activator">House Party</span>
+                                <p>If you're not sure what to mix up drink or music-wise, we're
+                                    here to help. Punch in the name of your favorite cocktail or grab a random one if
+                                    you're
+                                    feeling adventurous and we'll show you how to mix it up. You'll be sure to find a
+                                    new
+                                    favorite or two!</p>
+                                <p>Once you have a beverage in hand, you'll need some tunes to get the party going. You
+                                    can
+                                    search for a playlist by artist or genre. Either way, we'll give you a few options
+                                    to choose
+                                    from to kick start your House Party!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://jeff-paul-greco.github.io/project1/index.html" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/Jeff-Paul-Greco/project1" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <h4 class="top-margin">CODING CHALLENGES</h4>
+
+
+                <div class="row">
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/crystal-collector.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Crystal Collector</span>
+                                <p class="activator">jQuery / DOM manipulation</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">Crystal Collector</span>
+                                <p class="activator">Crystal Collector is a fun number matching game on the outside.
+                                    Behind the scenes, it is a
+                                    study in DOM manipulation, random number generation, how to leverage looping to
+                                    write
+                                    cleaner code, and "this." So much "this." Can you come up with a winning strategy?
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <a href="https://jhaarla.github.io/Crystal-Collector-Game/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/Crystal-Collector-Game" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/GIFtastic.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">It's GIFtastic!</span>
+                                <p class="activator">API calls / Bootstrap</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">It's GIFtastic!</span>
+                                <p class="activator">This fun GIF viewer has quite a bit going on under it's plain-jane
+                                    hood. API calls
+                                    with it's returned data manipulated into what shows on screen. Dynamically - with
+                                    jQuery/JavaScript. Fun project that lead to a fun page to play with. Check it out!
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <a href="https://jhaarla.github.io/GifTastic/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/GifTastic" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/liri-scrnsht.PNG">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">LIRI Bot</span>
+                                <p class="activator">node.js CLI app</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">LIRI Bot</span>
+                                <p class="activator">LIRI Bot is a node.js CLI app that fetches information about songs,
+                                    concerts and movies. It
+                                    uses several different APIs via axios. This is a relatively simple app to showcase
+                                    my
+                                    understanding of how to work with node.js and some of its commands. Unfortunately,
+                                    since it
+                                    is a CLI app, it will not run in the browser. You can head over to the GitHub repo
+                                    to check
+                                    out the code, though. There's also a video of LIRI Bot in action. Check it out!</p>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <!-- <a href="https://jhaarla.github.io/trainz/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a> -->
+                                <a href="https://github.com/JHaarla/liri-node-app" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="my-card valign-wrapper" data-aos="fade-left">
+                            <img class="folioPics" src="assets/images/liri-scrnsht.PNG" alt="liri bot thumbnail">
+                            <div>
+                                <h5>LIRI Bot</h5>
+                                <p>LIRI Bot is a node.js CLI app that fetches information about songs, concerts and movies. It
+                                    uses several different APIs via axios. This is a relatively simple app to showcase my
+                                    understanding of how to work with node.js and some of its commands. Unfortunately, since it
+                                    is a CLI app, it will not run in the browser. You can head over to the GitHub repo to check
+                                    out the code, though. There's also a video of LIRI Bot in action. Check it out!</p> -->
+                    <!-- <a href="https://jhaarla.github.io/Crystal-Collector-Game/" target="_blank"
+                                    class="waves-effect waves-light btn"><i class="fas fa-globe"></i> Live</a> -->
+                    <!-- <a href="https://github.com/JHaarla/liri-node-app" target="_blank"
+                                    class="waves-effect waves-light btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div> -->
+
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/BattleBrains.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Battle of the Brains</span>
+                                <p class="activator">Timers / javaScript / <br>DOM manipulation</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">Battle of the Brains</span>
+                                <div class="activator"><b>For the public:</b> fun trivia quiz.<br>
+                                    <b>For tech nerds:</b> A study in timers with JavaScript. Lots of DOM manipulation
+                                    via
+                                    jQuery. Bootstrap for display & responsiveness.</div>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <a href="https://jhaarla.github.io/TriviaGame/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/TriviaGame" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/trainz-thumb.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Train Schedules</span>
+                                <p class="activator">Firebase / Materialize.css</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">Train Schedules</span>
+                                <p class="activator">Train Schedules is a study toward persistent data. This project
+                                    uses Firebase to achieve
+                                    persistent data storage across devices. Outside of persistent data, there is quite a
+                                    bit of
+                                    data validation happening behind the scenes as well. I also took this opportunity to
+                                    experiment with a different CSS framework - Materialize.</p>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <a href="https://jhaarla.github.io/trainz/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/trainz" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/Bamazon.PNG">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Bamazon</span>
+                                <p class="activator">node.js CLI app</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">Bamazon</span>
+                                <p class="activator">Bamazon is a node.js CLI app that mimics an online store. MySQL is
+                                    doing the heavy lifting
+                                    behind the scenes for this project. There are two different views with different
+                                    functionality - Customer and Manager. Check out the GitHub page for more information
+                                    and a
+                                    demo!
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <!-- <a href="https://jhaarla.github.io/Crystal-Collector-Game/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a> -->
+                                <a href="https://github.com/JHaarla/bamazon" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/friendfinder.PNG">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Friend Finder</span>
+                                <p class="activator">node.js / Express.js</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">Friend Finder</span>
+                                <div class="activator">Friend Finder is a friend matching app. Answer some basic
+                                    questions and we'll find the best
+                                    friend match for you! No more meeting people IRL. This project is an exercise in
+                                    learning
+                                    node.js and express to talk between the front and back end. Give it a whirl and see
+                                    who you
+                                    get matched up with!</div>
+                            </div>
+                            <div class="card-action">
+                                <!-- <a href="#">This is a link</a> -->
+                                <a href="https://immense-temple-85700.herokuapp.com" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/Find-a-Friend" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 m4" data-aos="fade-up">
+                        <div class="card sticky-action hoverable">
+                            <div class="card-image">
+                                <img class="activator" src="assets/images/burger-app.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">So Many Burgers</span>
+                                <p class="activator">node.js / Express.js / mySQL</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title activator">So Many Burgers</span>
+                                <p class="activator">So Many Burgers is a simple "restaurant" app. You can create
+                                    burgers, eat them & then throw
+                                    your trash away. This project show the basic full-stack CRUD operations in action
+                                    realized
+                                    with node.js, express, handlebars and custom controllers/orm to handle user actions.
+                                    Check
+                                    it out!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://cryptic-chamber-48338.herokuapp.com/" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fas fa-globe"></i> Live</a>
+                                <a href="https://github.com/JHaarla/burger" target="_blank"
+                                    class="waves-effect waves-light btn-small"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- </section> -->
+        <section class="bottom-slide" id="sec-resume">
+            <span class="mySpacing">
+                <h1>Experience</h1>
+                <h3>My professional experience</h3>
+            </span>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div>
+                            <p class="custom-height">Here is an overview of my skills. All of these will continue to
+                                increase as I learn more and pick up more tricks of the trade. The below
+                                technologies/software covers my current skills in web development and graphic design.
+                                Not pictured: Microsoft Office, other niche design tools and general computer savviness.
+                                I'm also comfortable in a Windows or macOS environment. Working towards being more
+                                proficient in a Linux environment as well. </p>
+                        </div>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/HTML.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/CSS.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/Javascript.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/node.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/VScode.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/Illustrator.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/Photoshop.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/InDesign.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/Premiere.png"><br>
+                        <img class="exp-bars responsive-img" data-aos="fade-right" data-aos-offset="50"
+                            src="assets/images/AfterEffects.png"><br>
+                        <a href="./assets/JHaarlaResume2019.docx.pdf" target="_blank">
+                            <i class="far fa-file-pdf fa-3x"></i>
+                            <p>Boring ol' paper resumé</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="bottom-slide" id="sec-contact">
+            <span class="mySpacing">
+                <h1>Contact</h1>
+                <h3>Get in touch!</h3>
+            </span>
+
+
+            <div class="container">
+
+                <div class="row">
+                    <form class="col m12 l6">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Your message here</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="button" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                    <div class="col m12 l6 my-center">
+
+                        <div class="my-contact">
+                            <a href="mailto:haarladev@gmail.com" target="_top">
+                                <i class="fas fa-envelope fa-3x"></i> <br>
+                                <p>haarla.dev@gmail.com</p>
+                            </a>
+                        </div>
+                        <div class="my-contact">
+                            <a target="_blank">
+                                <i class="fas fa-phone-alt fa-3x"></i><br>
+                                <p>704.840.5654</p>
+                            </a>
+                        </div> <br>
+                        <div class="my-contact">
+                            <a href="https://github.com/JHaarla" target="_blank">
+                                <i class="fab fa-github fa-3x"></i><br>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="my-contact">
+                            <a href="https://www.linkedin.com/in/jarkko-haarla-34906215/" target="_blank">
+                                <i class="fab fa-linkedin-in fa-3x"></i><br>
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 750
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019 &lt;haarla.dev&gt;
+        </div>
+    </div>
+</footer>
+
+</html>

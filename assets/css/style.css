@@ -1,0 +1,283 @@
+body {
+    font-family: 'Lato', "Century Gothic", sans-serif;
+    background: #eee;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .nav-items,
+  .bottom-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  #myheight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .mySpacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .nav-items h1,
+  .bottom-slide h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: .5rem;
+    color: #ff5f14;
+  }
+
+  .nav-items span {
+      color: #000;
+  }
+
+  .nav-items h3,
+  .bottom-slide h3 {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    opacity: 0.6;
+  }
+
+  .items-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+  }
+
+  .items-container--top {
+    position: fixed;
+    top: 0;
+  }
+
+  .navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #212121;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+  }
+  .navs:hover {
+    color: white;
+    background: rgb(255,95,20, 0.8);
+    transition: all 0.5s ease;
+  }
+
+  .bottom-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #ff5f14;
+    transition: left 0.3s ease;
+  }
+
+  .profile-pic {
+      display: block;
+      margin: auto;
+      width: 30%;
+      height: auto;
+      max-width: 200px;
+  }
+
+  .my-container {
+      max-width: 900px;
+      margin: auto;
+      overflow: auto;
+      padding: 0 2rem;
+      box-sizing: border-box;
+  }
+
+  .folioPics {
+      width: 100%
+  }
+
+  .my-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      background: #fafafa;
+      margin-bottom: 2rem;
+  }
+
+  .my-card > div {
+      padding: 1rem;
+  }
+
+  .my-card:nth-child(even) .folioPics {
+      order: 2;
+  }
+
+  h5 {
+      margin:0;
+  }
+
+form {
+    text-align: left;
+}
+
+/* label color */
+/* .input-field label {
+    color: #000;
+} */
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #ff5f14;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ff5f14;
+    box-shadow: 0 1px 0 0 #ff5f14;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #9E9E9E;
+    box-shadow: 0 1px 0 0 #9E9E9E;
+}
+/* invalid color */
+/* .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+} */
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #ff5f14;
+}
+
+a {
+    color: black;
+}
+
+.my-contact {
+    width: 150px;
+    display: inline-block;
+    margin-top: 4rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    text-align: center;
+}
+
+.page-footer {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #ff5f14;
+    margin-top: 2rem;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.exp-bars {
+    margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-weight: bold;
+    color: #858585;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+}
+   
+#skinnier {
+    max-width: 100%;
+    text-align: center;
+    display: inline-block;
+    line-height: 2.5rem;
+}
+
+.custom-height {
+    line-height: 2.5rem;
+}
+
+  @media (min-width: 800px) {
+    .nav-items h1,
+    .bottom-slide h1 {
+      font-size: 3rem;
+    }
+    .nav-items h3,
+    .bottom-slide h3 {
+      font-size: 1rem;
+    }
+   
+    .navs {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 700px) {
+    .nav-items h1, .bottom-slide h1 {
+      letter-spacing: 0ch;
+    }
+
+    .my-card {
+        display: block;
+    }
+    .my-contact {
+        width: 175px;
+        display: inline-block;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+  }
+
+  .btn-small {
+    padding: 0 11px;
+  }
+
+  .card .card-content {
+    padding: 11px;
+  }
+
+  .hide-scroll {
+    overflow: hidden;
+  }
+
+  h4 {
+    font-family: 'Lato', "Century Gothic", sans-serif;
+    font-weight: 900;
+  }
+
+  .top-margin {
+    margin-top: 5rem;
+  }
+
+  .page-footer .footer-copyright {
+    background-color: #ff5f14;
+    /* background-color: #ee6e73; */
+  }
