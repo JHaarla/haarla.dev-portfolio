@@ -281,3 +281,8 @@ a {
     background-color: #ff5f14;
     /* background-color: #ee6e73; */
   }
+
+  .btn-small {
+    padding: 0px 6px;
+    font-size: 13px;
+  }
