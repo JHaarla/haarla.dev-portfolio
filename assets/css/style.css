@@ -203,8 +203,12 @@ a {
     text-align: center;
 }
 
-.exp-bars {
+.tech {
     margin-bottom: 1rem;
+}
+
+figure {
+  display: inline-block;
 }
 
 .sub-title {
